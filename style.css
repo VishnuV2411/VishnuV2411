@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: #1b1b1b;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0px 10px 75px 10px;
+    padding: 50px 100px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+nav ul li a{
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #111;
+    background: #ffffff;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 684px;
+}
+.text, .banner-text {
+    font-style: italic;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.banner-text {
+    align-items: center;
+    width:auto;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+    margin-top: 100px;
+}
+.text-box {
+    align-items: center;
+    width:auto;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+    margin-top: 300px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.myinfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.myinfo-text {
+    width: 100%;
+    padding: 50px;
+    font-size: 45px;
+    color: #111;
+    font-style: 'Lato';
+}
+
+.myinfo ul li{
+    text-decoration: none;
+    list-style-type: square;
+    line-height: 60px;
+}
+
+.myinfo ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.phone-container, .mail-container, .linkedin-container{
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    width:auto;
+    position: relative;
+    padding: 10px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-color: orange;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: 330px;
+}
+
